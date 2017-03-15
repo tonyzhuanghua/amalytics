@@ -8,10 +8,10 @@ import org.junit.Test;
 
 import java.math.RoundingMode;
 import java.text.NumberFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 import static org.junit.Assert.assertEquals;
 
@@ -22,8 +22,8 @@ import static org.junit.Assert.assertEquals;
 public class OrderTest {
 
     private ItemGroup itemGroup;
-    private List<Item> items = new CopyOnWriteArrayList<>();
-    private List<DiscountType> itemDiscounts = new CopyOnWriteArrayList<>();
+    private List<Item> items = new ArrayList<>();
+    private List<DiscountType> itemDiscounts = new ArrayList<>();
 
     private String[] itemsArray, itemsArray1;
 
